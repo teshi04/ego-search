@@ -1,2 +1,3 @@
 *.txt
 *.conf
+Gemfile.lock

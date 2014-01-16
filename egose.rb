@@ -1,9 +1,7 @@
 # coding: utf-8
 
-require 'twitter'
-require 'mail'
-require 'fileutils'
-require 'yaml'
+require 'bundler'
+Bundler.require
 
 # メール送信
 def send_mail(*str)
