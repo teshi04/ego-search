@@ -77,5 +77,7 @@ File.open(path+"/since_ids.txt", "w") do |f|
   end
 end
 
-send_mail(*str)
+unless str.blank?
+  send_mail(*str)
+end
 
